@@ -88,7 +88,14 @@ unsigned int convert_r(va_list args, buffer_t *output,
 unsigned int convert_R(va_list args, buffer_t *output,
 		unsigned char flags, int wid, int prec, unsigned char len);
 
-/* Handlers */
+/*
+ * Description: Function returns struct handlers_s that function pointers
+ * handling various events. contents of struct by
+ * the requirements of the program that uses it.
+ *
+ * Returns:
+ *  - A struct handlers_s that contains function pointers.
+ */
 unsigned char handle_flags(const char *flags, char *index);
 unsigned char handle_length(const char *modifier, char *index);
 int handle_width(va_list args, const char *modifier, char *index);
