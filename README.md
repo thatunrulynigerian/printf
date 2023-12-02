@@ -7,12 +7,13 @@ Where the ellipsis `(...)` indicate variable number of argument.
 In this project we would create our own custom `_printf` function which will replicate most of the behaviour of the standard `printf`.
 
 ## Requirements
+```
 > Editor use vi 
 > files are compiled on Ubuntu 20.04 LTS using gcc, with the options -Wall -Werror -Wextra -pedantic -std=gnu89
 > The codes are betty Compliant.
 > All prototypes are contained in `main.h`
 > `_putchar` is not included in this project
-
+```
 ## Authorized functions and macros
 ```
 write (man 2 write)
