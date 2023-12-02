@@ -14,6 +14,7 @@ In this project we would create our own custom `_printf` function which will rep
 > `_putchar` is not included in this project
 
 ## Authorized functions and macros
+```
 write (man 2 write)
 malloc (man 3 malloc)
 free (man 3 free)
@@ -21,11 +22,12 @@ va_start (man 3 va_start)
 va_end (man 3 va_end)
 va_copy (man 3 va_copy)
 va_arg (man 3 va_arg)
+```
 
 ## Important Files
 
 ## Test code
-``
+```
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
@@ -70,8 +72,7 @@ int main(void)
     printf("Unknown:[%r]\n");
     return (0);
 }
-
-``
+```
 ##  Authors
 Martin Odachi  
 Maria Abiazim
