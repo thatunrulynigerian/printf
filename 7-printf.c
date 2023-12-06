@@ -8,11 +8,11 @@ unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *,
 		unsigned char, int, int, unsigned char);
 
 /**
- * handle_flags - Matches flags with corresponding values.
- * @flag: A pointer to a potential string of flags.
- * @index: An index counter for the original format string.
+ * handle_flags - Matches flags with  values.
+ * @flag: A pointer to string of flags.
+ * @index: An index counter for the string.
  *
- * Return: If flag characters are matched - a corresponding value.
+ * Return: If characters are match - give corresponding value.
  *         Otherwise - 0.
  */
 unsigned char handle_flags(const char *flag, char *index)
@@ -46,11 +46,11 @@ unsigned char handle_flags(const char *flag, char *index)
 			break;
 	}
 
-	return (ret);
+	return (0);
 }
 
 /**
- * handle_length - Matches length modifiers with their corresponding value.
+ * handle_length - Matches length modifiers with their value.
  * @modifier: A pointer to a potential length modifier.
  * @index: An index counter for the original format string.
  *
