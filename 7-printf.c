@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * handle_flags - Matches flags with corresponding values.
- * @flag: A pointer to a potential string of flags.
- * @index: An index counter for the original format string.
+ * handle_flags - Matches flags with its values.
+ * @flag: A pointer to string of flags.
+ * @index: An index counter for the format string.
  *
- * Return: If flag characters are matched - a corresponding value.
+ * Return: If flag characters are matched return a corresponding value.
  *         Otherwise - 0.
  */
 unsigned char handle_flags(const char *flag, char *index)
