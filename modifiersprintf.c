@@ -8,14 +8,14 @@ unsigned int print_neg_width(buffer_t *output, unsigned int printed,
 		unsigned char flags, int wid);
 
 /**
- * print_width - Stores leading spaces to a buffer for a width modifier.
- * @output: A buffer_t struct containing a character array.
- * @printed: The current number of characters already printed to output
+ * print_width: Stores leading spaces to the buffer for a width modifier.
+ * @output: A buffer_t struct containing a char array.
+ * @printed: Current no of chars printed to output
  *           for a given number specifier.
  * @flags: Flag modifiers.
- * @wid: A width modifier.
+ * @wid: Width modifier.
  *
- * Return: The number of bytes stored to the buffer.
+ * Return: Number of bytes stored to the buffer.
  */
 unsigned int print_width(buffer_t *output, unsigned int printed,
 		unsigned char flags, int wid)
@@ -36,11 +36,11 @@ unsigned int print_width(buffer_t *output, unsigned int printed,
  * print_string_width - Stores leading spaces to a buffer for a width modifier.
  * @output: A buffer_t struct containing a character array.
  * @flags: Flag modifiers.
- * @wid: A width modifier.
- * @prec: A precision modifier.
- * @size: The size of the string.
+ * @wid: Width modifier.
+ * @prec: Precision modifier.
+ * @size: Size of the string.
  *
- * Return: The number of bytes stored to the buffer.
+ * Return: Number of bytes stored to the buffer.
  */
 unsigned int print_string_width(buffer_t *output,
 		unsigned char flags, int wid, int prec, int size)
@@ -61,12 +61,12 @@ unsigned int print_string_width(buffer_t *output,
 /**
  * print_neg_width - Stores trailing spaces to a buffer for a '-' flag.
  * @output: A buffer_t struct containing a character array.
- * @printed: The current number of bytes already stored to output
+ * @printed: Current number of bytes stored to output
  *           for a given specifier.
  * @flags: Flag modifiers.
- * @wid: A width modifier.
+ * @wid: Width modifier.
  *
- * Return: The number of bytes stored to the buffer.
+ * Return: number of bytes stored to the buffer.
  */
 unsigned int print_neg_width(buffer_t *output, unsigned int printed,
 		unsigned char flags, int wid)
