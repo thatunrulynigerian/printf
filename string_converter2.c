@@ -42,7 +42,7 @@ unsigned char flags, int wid, int prec, unsigned char len)
 				ret += _memcpy(output, &zero, 1);
 				ret += convert_ubase(output, *(str + index),
 					"0123456789ABCDEF", flags, 0, 0);
-			continue
+			continue;
 		}
 		ret += _memcpy(output, (str + index), 1);
 	}
